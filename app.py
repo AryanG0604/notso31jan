@@ -141,8 +141,8 @@ elif not st.session_state.completed:
 else:
     st.balloons()
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.success("🎉 Hehe babes! You are officially My Valentine 💞(Doesn't matter Jan or Feb or any other 10 months in this calendar you are my forever valentine and you'll always be.")
-    st.write("Welcome aboard. This role comes with unlimited hugs, kisses and stolen smiles)")
+    st.success("🎉 Hehe babes! You are officially My Valentine 💞(Doesn't matter Jan or Feb or any other 10 months in this calendar you are my forever valentine and you'll always be).")
+    st.write("Welcome aboard. This role comes with unlimited hugs, kisses and stolen smiles")
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="footer">Made with ❤️ by someone who really loves you and your forever.</div>', unsafe_allow_html=True)
