@@ -91,7 +91,7 @@ st.markdown('<div class="title">Internship Assessment Portal</div>', unsafe_allo
 st.markdown('<div class="subtitle">Designed for one exceptional candidate 💖</div>', unsafe_allow_html=True)
 
 # ---------------- PROGRESS ----------------
-progress = st.session_state.q_index / (len(questions) + 1)
+progress = st.session_state.q_index / (len(questions))
 st.progress(progress)
 
 # ---------------- QUESTION CARD ----------------
@@ -142,7 +142,7 @@ else:
     st.balloons()
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.success("🎉 Hehe babes! You are officially My Valentine 💞(Doesn't matter Jan or Feb or any other 10 months in this calendar you are my forever valentine and you'll always be.")
-    st.write("Welcome aboard. This role comes with unlimited hugs,kisses and stolen smiles.")
+    st.write("Welcome aboard. This role comes with unlimited hugs, kisses and stolen smiles)")
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="footer">Made with ❤️ by someone who really loves you and your forever.</div>', unsafe_allow_html=True)
