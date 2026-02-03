@@ -48,34 +48,34 @@ body {
 # ---------------- QUESTIONS (MCQ) ----------------
 questions = [
     {
-        "question": "What is my favorite way to spend time with you? 💬",
+        "question": "Our fav song?",
         "options": [
-            "Talking endlessly",
-            "Watching movies",
-            "Going on long walks",
-            "Doing absolutely nothing together"
+            "Iris",
+            "Dekha hi nahi",
+            "Be my baby",
+            "Agar Tum saath ho"
         ],
-        "answer": "Talking endlessly"
+        "answer": "Dekha hi nahi"
     },
     {
-        "question": "What do I secretly love more? ☕🍵",
+        "question": "What would we like to do when we'll meet again?",
         "options": [
-            "Tea",
-            "Coffee",
-            "Hot Chocolate",
-            "Anything if it’s with you"
-        ],
-        "answer": "Coffee"
-    },
-    {
-        "question": "How would I describe us? 💞",
-        "options": [
-            "Chaotic",
-            "Comforting",
-            "Magical",
+            "Just stay home and cuddle endlessly.",
+            "Cook food for each other",
+            "Go to a club, dressed hot, get drunk and dance our hearts out",
             "All of the above"
         ],
         "answer": "All of the above"
+    },
+    {
+        "question": "The actual date you became my valentine?",
+        "options": [
+            "Mai tera",
+            "Tera mai",
+            "13.05.2025",
+            "04.02.2026"
+        ],
+        "answer": "13.05.2025"
     }
 ]
 
@@ -123,7 +123,7 @@ elif not st.session_state.completed:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.markdown("### Final Assessment 💘")
     st.write("After everything you’ve seen, answered, and felt…")
-    st.markdown("## Will you be my Valentine? 💖")
+    st.markdown("## Will you be my Valentine KINSHIIII? 💖")
 
     col1, col2 = st.columns(2)
     with col1:
@@ -141,8 +141,8 @@ elif not st.session_state.completed:
 else:
     st.balloons()
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.success("🎉 Congratulations! You are officially My Valentine 💞")
-    st.write("Welcome aboard. This role comes with unlimited hugs and stolen smiles.")
+    st.success("🎉 Hehe babes! You are officially My Valentine 💞(Doesn't matter Jan or Feb or any other 10 months in this calendar you are my forever valentine and you'll always be.")
+    st.write("Welcome aboard. This role comes with unlimited hugs,kisses and stolen smiles.")
     st.markdown('</div>', unsafe_allow_html=True)
 
-    st.markdown('<div class="footer">Made with ❤️ by someone who really likes you.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="footer">Made with ❤️ by someone who really loves you and your forever.</div>', unsafe_allow_html=True)
